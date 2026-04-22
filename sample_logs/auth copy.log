@@ -1,0 +1,688 @@
+2026-04-20T10:59:45.739413+00:00 alusani useradd[876]: new group: name=alusaniadmin, GID=1000
+2026-04-20T10:59:45.739414+00:00 alusani useradd[876]: new user: name=alusaniadmin, UID=1000, GID=1000, home=/home/alusaniadmin, shell=/bin/bash, from=none
+2026-04-20T10:59:45.739415+00:00 alusani useradd[876]: add 'alusaniadmin' to group 'adm'
+2026-04-20T10:59:45.739415+00:00 alusani useradd[876]: add 'alusaniadmin' to group 'cdrom'
+2026-04-20T10:59:45.739416+00:00 alusani useradd[876]: add 'alusaniadmin' to group 'sudo'
+2026-04-20T10:59:45.739417+00:00 alusani useradd[876]: add 'alusaniadmin' to group 'dip'
+2026-04-20T10:59:45.739419+00:00 alusani useradd[876]: add 'alusaniadmin' to group 'plugdev'
+2026-04-20T10:59:45.739420+00:00 alusani useradd[876]: add 'alusaniadmin' to group 'users'
+2026-04-20T10:59:45.739421+00:00 alusani useradd[876]: add 'alusaniadmin' to shadow group 'adm'
+2026-04-20T10:59:45.739422+00:00 alusani useradd[876]: add 'alusaniadmin' to shadow group 'cdrom'
+2026-04-20T10:59:45.739423+00:00 alusani useradd[876]: add 'alusaniadmin' to shadow group 'sudo'
+2026-04-20T10:59:45.739424+00:00 alusani useradd[876]: add 'alusaniadmin' to shadow group 'dip'
+2026-04-20T10:59:45.739425+00:00 alusani useradd[876]: add 'alusaniadmin' to shadow group 'plugdev'
+2026-04-20T10:59:45.739426+00:00 alusani useradd[876]: add 'alusaniadmin' to shadow group 'users'
+2026-04-20T10:59:45.739428+00:00 alusani passwd[881]: password for 'alusaniadmin' changed by 'root'
+2026-04-20T10:59:45.739546+00:00 alusani systemd-logind[917]: New seat seat0.
+2026-04-20T10:59:45.739548+00:00 alusani systemd-logind[917]: Watching system buttons on /dev/input/event0 (Power Button)
+2026-04-20T10:59:45.739549+00:00 alusani systemd-logind[917]: Watching system buttons on /dev/input/event3 (QEMU QEMU USB Keyboard)
+2026-04-20T10:59:45.735133+00:00 alusani polkitd[911]: Loading rules from directory /etc/polkit-1/rules.d
+2026-04-20T10:59:45.735441+00:00 alusani polkitd[911]: Loading rules from directory /run/polkit-1/rules.d
+2026-04-20T10:59:45.735450+00:00 alusani polkitd[911]: Error opening rules directory: Error opening directory “/run/polkit-1/rules.d”: No such file or directory (g-file-error-quark, 4)
+2026-04-20T10:59:45.735459+00:00 alusani polkitd[911]: Loading rules from directory /usr/local/share/polkit-1/rules.d
+2026-04-20T10:59:45.735467+00:00 alusani polkitd[911]: Error opening rules directory: Error opening directory “/usr/local/share/polkit-1/rules.d”: No such file or directory (g-file-error-quark, 4)
+2026-04-20T10:59:45.735477+00:00 alusani polkitd[911]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-04-20T10:59:45.770191+00:00 alusani polkitd[911]: Finished loading, compiling and executing 7 rules
+2026-04-20T10:59:45.784344+00:00 alusani polkitd[911]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2026-04-20T10:59:47.131071+00:00 alusani sshd[1166]: Server listening on 0.0.0.0 port 22.
+2026-04-20T10:59:47.131118+00:00 alusani sshd[1166]: Server listening on :: port 22.
+2026-04-20T11:00:09.566501+00:00 alusani login: pam_unix(login:auth): check pass; user unknown
+2026-04-20T11:00:09.566678+00:00 alusani login: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost= 
+2026-04-20T11:00:13.296256+00:00 alusani login: FAILED LOGIN 1 FROM tty1 FOR bmwm04, Authentication failure
+2026-04-20T11:00:23.545475+00:00 alusani login: pam_unix(login:auth): check pass; user unknown
+2026-04-20T11:00:23.545646+00:00 alusani login: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost= 
+2026-04-20T11:00:26.794252+00:00 alusani login: FAILED LOGIN 2 FROM tty1 FOR alusani, Authentication failure
+2026-04-20T11:00:46.682451+00:00 alusani login: pam_unix(login:auth): check pass; user unknown
+2026-04-20T11:00:46.682828+00:00 alusani login: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost= 
+2026-04-20T11:00:50.371653+00:00 alusani login: FAILED LOGIN 3 FROM tty1 FOR ALUSANI, Authentication failure
+2026-04-20T11:01:15.425241+00:00 alusani login: pam_unix(login:session): session opened for user alusaniadmin(uid=1000) by alusaniadmin(uid=0)
+2026-04-20T11:01:15.430949+00:00 alusani systemd-logind[917]: New session 1 of user alusaniadmin.
+2026-04-20T11:01:15.442315+00:00 alusani (systemd): pam_unix(systemd-user:session): session opened for user alusaniadmin(uid=1000) by alusaniadmin(uid=0)
+2026-04-20T11:01:15.443087+00:00 alusani systemd-logind[917]: New session 2 of user alusaniadmin.
+2026-04-20T11:03:49.354700+00:00 alusani sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alusaniadmin(uid=1000)
+2026-04-20T11:03:49.355904+00:00 alusani sudo: alusaniadmin : TTY=/dev/tty1 ; PWD=/home/alusaniadmin ; USER=root ; COMMAND=/usr/bin/apt update
+2026-04-20T11:03:52.560112+00:00 alusani sudo: pam_unix(sudo:session): session closed for user root
+2026-04-20T11:05:01.538171+00:00 alusani CRON[1439]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T11:05:01.541988+00:00 alusani CRON[1439]: pam_unix(cron:session): session closed for user root
+2026-04-20T11:05:16.486905+00:00 alusani sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alusaniadmin(uid=1000)
+2026-04-20T11:05:16.492667+00:00 alusani sudo: alusaniadmin : TTY=/dev/tty1 ; PWD=/home/alusaniadmin ; USER=root ; COMMAND=/usr/bin/apt upgrade -y
+2026-04-20T11:05:41.946107+00:00 alusani polkitd[911]: Reloading rules
+2026-04-20T11:05:41.946160+00:00 alusani polkitd[911]: Collecting garbage unconditionally...
+2026-04-20T11:05:41.946174+00:00 alusani polkitd[911]: Loading rules from directory /etc/polkit-1/rules.d
+2026-04-20T11:05:41.946190+00:00 alusani polkitd[911]: Loading rules from directory /run/polkit-1/rules.d
+2026-04-20T11:05:41.946207+00:00 alusani polkitd[911]: Error opening rules directory: Error opening directory “/run/polkit-1/rules.d”: No such file or directory (g-file-error-quark, 4)
+2026-04-20T11:05:41.946224+00:00 alusani polkitd[911]: Loading rules from directory /usr/local/share/polkit-1/rules.d
+2026-04-20T11:05:41.946241+00:00 alusani polkitd[911]: Error opening rules directory: Error opening directory “/usr/local/share/polkit-1/rules.d”: No such file or directory (g-file-error-quark, 4)
+2026-04-20T11:05:41.946259+00:00 alusani polkitd[911]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-04-20T11:05:41.947202+00:00 alusani polkitd[911]: Finished loading, compiling and executing 7 rules
+2026-04-20T11:05:41.947227+00:00 alusani polkitd[911]: Reloading rules
+2026-04-20T11:05:41.947245+00:00 alusani polkitd[911]: Collecting garbage unconditionally...
+2026-04-20T11:05:41.947258+00:00 alusani polkitd[911]: Loading rules from directory /etc/polkit-1/rules.d
+2026-04-20T11:05:41.947309+00:00 alusani polkitd[911]: Loading rules from directory /run/polkit-1/rules.d
+2026-04-20T11:05:41.947323+00:00 alusani polkitd[911]: Error opening rules directory: Error opening directory “/run/polkit-1/rules.d”: No such file or directory (g-file-error-quark, 4)
+2026-04-20T11:05:41.947338+00:00 alusani polkitd[911]: Loading rules from directory /usr/local/share/polkit-1/rules.d
+2026-04-20T11:05:41.947347+00:00 alusani polkitd[911]: Error opening rules directory: Error opening directory “/usr/local/share/polkit-1/rules.d”: No such file or directory (g-file-error-quark, 4)
+2026-04-20T11:05:41.947362+00:00 alusani polkitd[911]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-04-20T11:05:41.947911+00:00 alusani polkitd[911]: Finished loading, compiling and executing 7 rules
+2026-04-20T11:05:41.947951+00:00 alusani polkitd[911]: Reloading rules
+2026-04-20T11:05:41.948076+00:00 alusani polkitd[911]: Collecting garbage unconditionally...
+2026-04-20T11:05:41.948101+00:00 alusani polkitd[911]: Loading rules from directory /etc/polkit-1/rules.d
+2026-04-20T11:05:41.948120+00:00 alusani polkitd[911]: Loading rules from directory /run/polkit-1/rules.d
+2026-04-20T11:05:41.948149+00:00 alusani polkitd[911]: Error opening rules directory: Error opening directory “/run/polkit-1/rules.d”: No such file or directory (g-file-error-quark, 4)
+2026-04-20T11:05:41.948173+00:00 alusani polkitd[911]: Loading rules from directory /usr/local/share/polkit-1/rules.d
+2026-04-20T11:05:41.948195+00:00 alusani polkitd[911]: Error opening rules directory: Error opening directory “/usr/local/share/polkit-1/rules.d”: No such file or directory (g-file-error-quark, 4)
+2026-04-20T11:05:41.948209+00:00 alusani polkitd[911]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-04-20T11:05:41.948606+00:00 alusani polkitd[911]: Finished loading, compiling and executing 7 rules
+2026-04-20T11:05:41.948636+00:00 alusani polkitd[911]: Reloading rules
+2026-04-20T11:05:41.948654+00:00 alusani polkitd[911]: Collecting garbage unconditionally...
+2026-04-20T11:05:41.948669+00:00 alusani polkitd[911]: Loading rules from directory /etc/polkit-1/rules.d
+2026-04-20T11:05:41.948687+00:00 alusani polkitd[911]: Loading rules from directory /run/polkit-1/rules.d
+2026-04-20T11:05:41.948777+00:00 alusani polkitd[911]: Error opening rules directory: Error opening directory “/run/polkit-1/rules.d”: No such file or directory (g-file-error-quark, 4)
+2026-04-20T11:05:41.949369+00:00 alusani polkitd[911]: Loading rules from directory /usr/local/share/polkit-1/rules.d
+2026-04-20T11:05:41.949384+00:00 alusani polkitd[911]: Error opening rules directory: Error opening directory “/usr/local/share/polkit-1/rules.d”: No such file or directory (g-file-error-quark, 4)
+2026-04-20T11:05:41.949392+00:00 alusani polkitd[911]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-04-20T11:05:41.949408+00:00 alusani polkitd[911]: Finished loading, compiling and executing 7 rules
+2026-04-20T11:05:43.851035+00:00 alusani polkitd[911]: Reloading rules
+2026-04-20T11:05:43.851206+00:00 alusani polkitd[911]: Collecting garbage unconditionally...
+2026-04-20T11:05:43.851238+00:00 alusani polkitd[911]: Loading rules from directory /etc/polkit-1/rules.d
+2026-04-20T11:05:43.851315+00:00 alusani polkitd[911]: Loading rules from directory /run/polkit-1/rules.d
+2026-04-20T11:05:43.851327+00:00 alusani polkitd[911]: Error opening rules directory: Error opening directory “/run/polkit-1/rules.d”: No such file or directory (g-file-error-quark, 4)
+2026-04-20T11:05:43.851336+00:00 alusani polkitd[911]: Loading rules from directory /usr/local/share/polkit-1/rules.d
+2026-04-20T11:05:43.851353+00:00 alusani polkitd[911]: Error opening rules directory: Error opening directory “/usr/local/share/polkit-1/rules.d”: No such file or directory (g-file-error-quark, 4)
+2026-04-20T11:05:43.851371+00:00 alusani polkitd[911]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-04-20T11:05:43.852502+00:00 alusani polkitd[911]: Finished loading, compiling and executing 7 rules
+2026-04-20T11:05:43.853079+00:00 alusani polkitd[911]: Reloading rules
+2026-04-20T11:05:43.853107+00:00 alusani polkitd[911]: Collecting garbage unconditionally...
+2026-04-20T11:05:43.853127+00:00 alusani polkitd[911]: Loading rules from directory /etc/polkit-1/rules.d
+2026-04-20T11:05:43.853135+00:00 alusani polkitd[911]: Loading rules from directory /run/polkit-1/rules.d
+2026-04-20T11:05:43.853144+00:00 alusani polkitd[911]: Error opening rules directory: Error opening directory “/run/polkit-1/rules.d”: No such file or directory (g-file-error-quark, 4)
+2026-04-20T11:05:43.853181+00:00 alusani polkitd[911]: Loading rules from directory /usr/local/share/polkit-1/rules.d
+2026-04-20T11:05:43.853196+00:00 alusani polkitd[911]: Error opening rules directory: Error opening directory “/usr/local/share/polkit-1/rules.d”: No such file or directory (g-file-error-quark, 4)
+2026-04-20T11:05:43.853209+00:00 alusani polkitd[911]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-04-20T11:05:43.853449+00:00 alusani polkitd[911]: Finished loading, compiling and executing 7 rules
+2026-04-20T11:05:44.089400+00:00 alusani polkitd[911]: Reloading rules
+2026-04-20T11:05:44.089477+00:00 alusani polkitd[911]: Collecting garbage unconditionally...
+2026-04-20T11:05:44.089503+00:00 alusani polkitd[911]: Loading rules from directory /etc/polkit-1/rules.d
+2026-04-20T11:05:44.089571+00:00 alusani polkitd[911]: Loading rules from directory /run/polkit-1/rules.d
+2026-04-20T11:05:44.089581+00:00 alusani polkitd[911]: Error opening rules directory: Error opening directory “/run/polkit-1/rules.d”: No such file or directory (g-file-error-quark, 4)
+2026-04-20T11:05:44.089589+00:00 alusani polkitd[911]: Loading rules from directory /usr/local/share/polkit-1/rules.d
+2026-04-20T11:05:44.089595+00:00 alusani polkitd[911]: Error opening rules directory: Error opening directory “/usr/local/share/polkit-1/rules.d”: No such file or directory (g-file-error-quark, 4)
+2026-04-20T11:05:44.089603+00:00 alusani polkitd[911]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-04-20T11:05:44.090031+00:00 alusani polkitd[911]: Finished loading, compiling and executing 7 rules
+2026-04-20T11:05:44.090048+00:00 alusani polkitd[911]: Reloading rules
+2026-04-20T11:05:44.090060+00:00 alusani polkitd[911]: Collecting garbage unconditionally...
+2026-04-20T11:05:44.090082+00:00 alusani polkitd[911]: Loading rules from directory /etc/polkit-1/rules.d
+2026-04-20T11:05:44.090101+00:00 alusani polkitd[911]: Loading rules from directory /run/polkit-1/rules.d
+2026-04-20T11:05:44.090116+00:00 alusani polkitd[911]: Error opening rules directory: Error opening directory “/run/polkit-1/rules.d”: No such file or directory (g-file-error-quark, 4)
+2026-04-20T11:05:44.090132+00:00 alusani polkitd[911]: Loading rules from directory /usr/local/share/polkit-1/rules.d
+2026-04-20T11:05:44.090140+00:00 alusani polkitd[911]: Error opening rules directory: Error opening directory “/usr/local/share/polkit-1/rules.d”: No such file or directory (g-file-error-quark, 4)
+2026-04-20T11:05:44.090148+00:00 alusani polkitd[911]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-04-20T11:05:44.090585+00:00 alusani polkitd[911]: Finished loading, compiling and executing 7 rules
+2026-04-20T11:05:59.205297+00:00 alusani polkitd[18696]: Loading rules from directory /etc/polkit-1/rules.d
+2026-04-20T11:05:59.205322+00:00 alusani polkitd[18696]: Loading rules from directory /run/polkit-1/rules.d
+2026-04-20T11:05:59.205331+00:00 alusani polkitd[18696]: Error opening rules directory: Error opening directory “/run/polkit-1/rules.d”: No such file or directory (g-file-error-quark, 4)
+2026-04-20T11:05:59.205338+00:00 alusani polkitd[18696]: Loading rules from directory /usr/local/share/polkit-1/rules.d
+2026-04-20T11:05:59.205345+00:00 alusani polkitd[18696]: Error opening rules directory: Error opening directory “/usr/local/share/polkit-1/rules.d”: No such file or directory (g-file-error-quark, 4)
+2026-04-20T11:05:59.205353+00:00 alusani polkitd[18696]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-04-20T11:05:59.206030+00:00 alusani polkitd[18696]: Finished loading, compiling and executing 7 rules
+2026-04-20T11:05:59.207196+00:00 alusani polkitd[18696]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2026-04-20T11:05:59.618618+00:00 alusani sudo: pam_unix(sudo:session): session closed for user root
+2026-04-20T11:15:01.585600+00:00 alusani CRON[18789]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T11:15:01.589637+00:00 alusani CRON[18789]: pam_unix(cron:session): session closed for user root
+2026-04-20T11:17:01.617184+00:00 alusani CRON[18798]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T11:17:01.623116+00:00 alusani CRON[18798]: pam_unix(cron:session): session closed for user root
+2026-04-20T11:17:35.915380+00:00 alusani sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alusaniadmin(uid=1000)
+2026-04-20T11:17:35.923421+00:00 alusani sudo: alusaniadmin : TTY=/dev/tty1 ; PWD=/home/alusaniadmin ; USER=root ; COMMAND=/usr/sbin/addgroup hr
+2026-04-20T11:17:35.969118+00:00 alusani groupadd[18811]: group added to /etc/group: name=hr, GID=1001
+2026-04-20T11:17:35.970593+00:00 alusani groupadd[18811]: group added to /etc/gshadow: name=hr
+2026-04-20T11:17:35.971050+00:00 alusani groupadd[18811]: new group: name=hr, GID=1001
+2026-04-20T11:17:35.972227+00:00 alusani sudo: pam_unix(sudo:session): session closed for user root
+2026-04-20T11:17:50.557922+00:00 alusani sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alusaniadmin(uid=1000)
+2026-04-20T11:17:50.558328+00:00 alusani sudo: alusaniadmin : TTY=/dev/tty1 ; PWD=/home/alusaniadmin ; USER=root ; COMMAND=/usr/sbin/addgroup finance
+2026-04-20T11:17:50.600363+00:00 alusani groupadd[18821]: group added to /etc/group: name=finance, GID=1002
+2026-04-20T11:17:50.601836+00:00 alusani groupadd[18821]: group added to /etc/gshadow: name=finance
+2026-04-20T11:17:50.602231+00:00 alusani groupadd[18821]: new group: name=finance, GID=1002
+2026-04-20T11:17:50.603378+00:00 alusani sudo: pam_unix(sudo:session): session closed for user root
+2026-04-20T11:17:58.070829+00:00 alusani sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alusaniadmin(uid=1000)
+2026-04-20T11:17:58.071052+00:00 alusani sudo: alusaniadmin : TTY=/dev/tty1 ; PWD=/home/alusaniadmin ; USER=root ; COMMAND=/usr/sbin/addgroup it
+2026-04-20T11:17:58.119978+00:00 alusani groupadd[18831]: group added to /etc/group: name=it, GID=1003
+2026-04-20T11:17:58.121651+00:00 alusani groupadd[18831]: group added to /etc/gshadow: name=it
+2026-04-20T11:17:58.121916+00:00 alusani groupadd[18831]: new group: name=it, GID=1003
+2026-04-20T11:17:58.123188+00:00 alusani sudo: pam_unix(sudo:session): session closed for user root
+2026-04-20T11:20:02.482410+00:00 alusani sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alusaniadmin(uid=1000)
+2026-04-20T11:20:02.482684+00:00 alusani sudo: alusaniadmin : TTY=/dev/tty1 ; PWD=/home/alusaniadmin ; USER=root ; COMMAND=/usr/sbin/adduser hr_user
+2026-04-20T11:20:02.532996+00:00 alusani groupadd[18847]: group added to /etc/group: name=hr_user, GID=1004
+2026-04-20T11:20:02.534189+00:00 alusani groupadd[18847]: group added to /etc/gshadow: name=hr_user
+2026-04-20T11:20:02.534523+00:00 alusani groupadd[18847]: new group: name=hr_user, GID=1004
+2026-04-20T11:20:02.541433+00:00 alusani useradd[18852]: new user: name=hr_user, UID=1004, GID=1004, home=/home/hr_user, shell=/bin/bash, from=/dev/pts/0
+2026-04-20T11:22:28.790248+00:00 alusani passwd[18863]: pam_unix(passwd:chauthtok): password changed for hr_user
+2026-04-20T11:23:10.317368+00:00 alusani chfn[18869]: changed user 'hr_user' information
+2026-04-20T11:23:12.898175+00:00 alusani gpasswd[18877]: members of group users set by root to alusaniadmin,hr_user
+2026-04-20T11:23:12.902150+00:00 alusani sudo: pam_unix(sudo:session): session closed for user root
+2026-04-20T11:23:39.802053+00:00 alusani sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alusaniadmin(uid=1000)
+2026-04-20T11:23:39.802490+00:00 alusani sudo: alusaniadmin : TTY=/dev/tty1 ; PWD=/home/alusaniadmin ; USER=root ; COMMAND=/usr/sbin/adduser finance_user
+2026-04-20T11:23:39.855831+00:00 alusani groupadd[18889]: group added to /etc/group: name=finance_user, GID=1005
+2026-04-20T11:23:39.857369+00:00 alusani groupadd[18889]: group added to /etc/gshadow: name=finance_user
+2026-04-20T11:23:39.857823+00:00 alusani groupadd[18889]: new group: name=finance_user, GID=1005
+2026-04-20T11:23:39.865371+00:00 alusani useradd[18894]: new user: name=finance_user, UID=1005, GID=1005, home=/home/finance_user, shell=/bin/bash, from=/dev/pts/0
+2026-04-20T11:23:46.736133+00:00 alusani passwd[18905]: pam_unix(passwd:chauthtok): password changed for finance_user
+2026-04-20T11:23:57.565196+00:00 alusani chfn[18911]: changed user 'finance_user' information
+2026-04-20T11:23:58.915270+00:00 alusani gpasswd[18918]: members of group users set by root to alusaniadmin,hr_user,finance_user
+2026-04-20T11:23:58.919180+00:00 alusani sudo: pam_unix(sudo:session): session closed for user root
+2026-04-20T11:24:10.755120+00:00 alusani sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alusaniadmin(uid=1000)
+2026-04-20T11:24:10.756901+00:00 alusani sudo: alusaniadmin : TTY=/dev/tty1 ; PWD=/home/alusaniadmin ; USER=root ; COMMAND=/usr/sbin/adduser it_user
+2026-04-20T11:24:10.803382+00:00 alusani groupadd[18929]: group added to /etc/group: name=it_user, GID=1006
+2026-04-20T11:24:10.804565+00:00 alusani groupadd[18929]: group added to /etc/gshadow: name=it_user
+2026-04-20T11:24:10.804904+00:00 alusani groupadd[18929]: new group: name=it_user, GID=1006
+2026-04-20T11:24:10.811957+00:00 alusani useradd[18934]: new user: name=it_user, UID=1006, GID=1006, home=/home/it_user, shell=/bin/bash, from=/dev/pts/0
+2026-04-20T11:24:30.850382+00:00 alusani passwd[18951]: pam_unix(passwd:chauthtok): password changed for it_user
+2026-04-20T11:24:38.722917+00:00 alusani chfn[18955]: changed user 'it_user' information
+2026-04-20T11:24:40.094492+00:00 alusani gpasswd[18962]: members of group users set by root to alusaniadmin,hr_user,finance_user,it_user
+2026-04-20T11:24:40.096395+00:00 alusani sudo: pam_unix(sudo:session): session closed for user root
+2026-04-20T11:25:01.643238+00:00 alusani CRON[18966]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T11:25:01.646117+00:00 alusani CRON[18966]: pam_unix(cron:session): session closed for user root
+2026-04-20T11:26:25.185214+00:00 alusani sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alusaniadmin(uid=1000)
+2026-04-20T11:26:25.186037+00:00 alusani sudo: alusaniadmin : TTY=/dev/tty1 ; PWD=/home/alusaniadmin ; USER=root ; COMMAND=/usr/sbin/usermod -aG hr hr_user
+2026-04-20T11:26:25.202832+00:00 alusani usermod[18974]: add 'hr_user' to group 'hr'
+2026-04-20T11:26:25.203082+00:00 alusani usermod[18974]: add 'hr_user' to shadow group 'hr'
+2026-04-20T11:26:25.208334+00:00 alusani sudo: pam_unix(sudo:session): session closed for user root
+2026-04-20T11:27:06.258894+00:00 alusani sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alusaniadmin(uid=1000)
+2026-04-20T11:27:06.259245+00:00 alusani sudo: alusaniadmin : TTY=/dev/tty1 ; PWD=/home/alusaniadmin ; USER=root ; COMMAND=/usr/sbin/usermod -aG finance finance_user
+2026-04-20T11:27:06.270012+00:00 alusani usermod[18982]: add 'finance_user' to group 'finance'
+2026-04-20T11:27:06.270274+00:00 alusani usermod[18982]: add 'finance_user' to shadow group 'finance'
+2026-04-20T11:27:06.276135+00:00 alusani sudo: pam_unix(sudo:session): session closed for user root
+2026-04-20T11:27:33.679355+00:00 alusani sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alusaniadmin(uid=1000)
+2026-04-20T11:27:33.681678+00:00 alusani sudo: alusaniadmin : TTY=/dev/tty1 ; PWD=/home/alusaniadmin ; USER=root ; COMMAND=/usr/sbin/usermod -aG it it_user
+2026-04-20T11:27:33.689486+00:00 alusani usermod[18992]: add 'it_user' to group 'it'
+2026-04-20T11:27:33.691012+00:00 alusani usermod[18992]: add 'it_user' to shadow group 'it'
+2026-04-20T11:27:33.696185+00:00 alusani sudo: pam_unix(sudo:session): session closed for user root
+2026-04-20T11:35:01.681635+00:00 alusani CRON[19042]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T11:35:01.684681+00:00 alusani CRON[19042]: pam_unix(cron:session): session closed for user root
+2026-04-20T11:45:01.747993+00:00 alusani CRON[19059]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T11:45:01.757892+00:00 alusani CRON[19059]: pam_unix(cron:session): session closed for user root
+2026-04-20T11:55:01.981393+00:00 alusani CRON[19074]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T11:55:01.984889+00:00 alusani CRON[19074]: pam_unix(cron:session): session closed for user root
+2026-04-20T12:05:01.173619+00:00 alusani CRON[19088]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T12:05:01.178984+00:00 alusani CRON[19088]: pam_unix(cron:session): session closed for user root
+2026-04-20T12:15:01.429009+00:00 alusani CRON[19103]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T12:15:01.437167+00:00 alusani CRON[19103]: pam_unix(cron:session): session closed for user root
+2026-04-20T12:17:01.480418+00:00 alusani CRON[19109]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T12:17:01.484276+00:00 alusani CRON[19109]: pam_unix(cron:session): session closed for user root
+2026-04-20T12:25:01.674884+00:00 alusani CRON[19119]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T12:25:01.679083+00:00 alusani CRON[19119]: pam_unix(cron:session): session closed for user root
+2026-04-20T12:35:01.924854+00:00 alusani CRON[19131]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T12:35:01.932345+00:00 alusani CRON[19131]: pam_unix(cron:session): session closed for user root
+2026-04-20T12:45:01.094249+00:00 alusani CRON[19146]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T12:45:01.097977+00:00 alusani CRON[19146]: pam_unix(cron:session): session closed for user root
+2026-04-20T12:55:01.245080+00:00 alusani CRON[19180]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T12:55:01.247384+00:00 alusani CRON[19180]: pam_unix(cron:session): session closed for user root
+2026-04-20T13:05:01.336550+00:00 alusani CRON[19215]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T13:05:01.344647+00:00 alusani CRON[19215]: pam_unix(cron:session): session closed for user root
+2026-04-20T13:15:01.493158+00:00 alusani CRON[19231]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T13:15:01.497724+00:00 alusani CRON[19231]: pam_unix(cron:session): session closed for user root
+2026-04-20T13:17:01.542493+00:00 alusani CRON[19237]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T13:17:01.552366+00:00 alusani CRON[19237]: pam_unix(cron:session): session closed for user root
+2026-04-20T13:25:01.674299+00:00 alusani CRON[19249]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T13:25:01.684328+00:00 alusani CRON[19249]: pam_unix(cron:session): session closed for user root
+2026-04-20T13:35:01.796406+00:00 alusani CRON[19262]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T13:35:01.801620+00:00 alusani CRON[19262]: pam_unix(cron:session): session closed for user root
+2026-04-20T13:45:01.935058+00:00 alusani CRON[19274]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T13:45:01.941474+00:00 alusani CRON[19274]: pam_unix(cron:session): session closed for user root
+2026-04-20T13:55:01.084681+00:00 alusani CRON[19287]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T13:55:01.097688+00:00 alusani CRON[19287]: pam_unix(cron:session): session closed for user root
+2026-04-20T14:05:01.349447+00:00 alusani CRON[19300]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T14:05:01.353395+00:00 alusani CRON[19300]: pam_unix(cron:session): session closed for user root
+2026-04-20T14:15:01.467739+00:00 alusani CRON[19312]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T14:15:01.472892+00:00 alusani CRON[19312]: pam_unix(cron:session): session closed for user root
+2026-04-20T14:17:01.505610+00:00 alusani CRON[19318]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T14:17:01.515016+00:00 alusani CRON[19318]: pam_unix(cron:session): session closed for user root
+2026-04-20T14:25:01.612860+00:00 alusani CRON[19329]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T14:25:01.621569+00:00 alusani CRON[19329]: pam_unix(cron:session): session closed for user root
+2026-04-20T14:35:01.731117+00:00 alusani CRON[19341]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T14:35:01.736176+00:00 alusani CRON[19341]: pam_unix(cron:session): session closed for user root
+2026-04-20T14:45:01.863906+00:00 alusani CRON[19354]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T14:45:01.868718+00:00 alusani CRON[19354]: pam_unix(cron:session): session closed for user root
+2026-04-20T14:55:01.977471+00:00 alusani CRON[19387]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T14:55:01.981269+00:00 alusani CRON[19387]: pam_unix(cron:session): session closed for user root
+2026-04-20T15:05:01.154095+00:00 alusani CRON[19406]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T15:05:01.159296+00:00 alusani CRON[19406]: pam_unix(cron:session): session closed for user root
+2026-04-20T15:15:01.438251+00:00 alusani CRON[19419]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T15:15:01.446246+00:00 alusani CRON[19419]: pam_unix(cron:session): session closed for user root
+2026-04-20T15:17:01.474149+00:00 alusani CRON[19425]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T15:17:01.480167+00:00 alusani CRON[19425]: pam_unix(cron:session): session closed for user root
+2026-04-20T15:25:01.611625+00:00 alusani CRON[19437]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T15:25:01.618747+00:00 alusani CRON[19437]: pam_unix(cron:session): session closed for user root
+2026-04-20T15:35:01.779437+00:00 alusani CRON[19467]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T15:35:01.781703+00:00 alusani CRON[19467]: pam_unix(cron:session): session closed for user root
+2026-04-20T15:45:01.932329+00:00 alusani CRON[19483]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T15:45:01.937103+00:00 alusani CRON[19483]: pam_unix(cron:session): session closed for user root
+2026-04-20T15:55:01.072093+00:00 alusani CRON[19496]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T15:55:01.077204+00:00 alusani CRON[19496]: pam_unix(cron:session): session closed for user root
+2026-04-20T16:05:01.156894+00:00 alusani CRON[19511]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T16:05:01.161273+00:00 alusani CRON[19511]: pam_unix(cron:session): session closed for user root
+2026-04-20T16:15:01.344577+00:00 alusani CRON[19546]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T16:15:01.347490+00:00 alusani CRON[19546]: pam_unix(cron:session): session closed for user root
+2026-04-20T16:17:01.381980+00:00 alusani CRON[19552]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T16:17:01.388136+00:00 alusani CRON[19552]: pam_unix(cron:session): session closed for user root
+2026-04-20T16:25:01.523685+00:00 alusani CRON[19563]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T16:25:01.530700+00:00 alusani CRON[19563]: pam_unix(cron:session): session closed for user root
+2026-04-20T16:35:01.682047+00:00 alusani CRON[19576]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T16:35:01.686607+00:00 alusani CRON[19576]: pam_unix(cron:session): session closed for user root
+2026-04-20T16:45:01.823493+00:00 alusani CRON[19588]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T16:45:01.827327+00:00 alusani CRON[19588]: pam_unix(cron:session): session closed for user root
+2026-04-20T16:55:01.986380+00:00 alusani CRON[19600]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T16:55:01.992055+00:00 alusani CRON[19600]: pam_unix(cron:session): session closed for user root
+2026-04-20T17:05:01.202583+00:00 alusani CRON[19613]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T17:05:01.206675+00:00 alusani CRON[19613]: pam_unix(cron:session): session closed for user root
+2026-04-20T17:15:01.354141+00:00 alusani CRON[19625]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T17:15:01.358671+00:00 alusani CRON[19625]: pam_unix(cron:session): session closed for user root
+2026-04-20T17:17:01.395429+00:00 alusani CRON[19631]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T17:17:01.401318+00:00 alusani CRON[19631]: pam_unix(cron:session): session closed for user root
+2026-04-20T17:25:01.454541+00:00 alusani CRON[19665]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T17:25:01.458131+00:00 alusani CRON[19665]: pam_unix(cron:session): session closed for user root
+2026-04-20T17:35:01.574188+00:00 alusani CRON[19678]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T17:35:01.578217+00:00 alusani CRON[19678]: pam_unix(cron:session): session closed for user root
+2026-04-20T17:45:01.722237+00:00 alusani CRON[19690]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T17:45:01.726305+00:00 alusani CRON[19690]: pam_unix(cron:session): session closed for user root
+2026-04-20T17:55:01.886323+00:00 alusani CRON[19704]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T17:55:01.890043+00:00 alusani CRON[19704]: pam_unix(cron:session): session closed for user root
+2026-04-20T18:05:01.149742+00:00 alusani CRON[19736]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T18:05:01.154105+00:00 alusani CRON[19736]: pam_unix(cron:session): session closed for user root
+2026-04-20T18:15:01.402612+00:00 alusani CRON[19755]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T18:15:01.408186+00:00 alusani CRON[19755]: pam_unix(cron:session): session closed for user root
+2026-04-20T18:17:01.427757+00:00 alusani CRON[19760]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T18:17:01.430855+00:00 alusani CRON[19760]: pam_unix(cron:session): session closed for user root
+2026-04-20T18:25:01.490101+00:00 alusani CRON[19772]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T18:25:01.494983+00:00 alusani CRON[19772]: pam_unix(cron:session): session closed for user root
+2026-04-20T18:35:01.573315+00:00 alusani CRON[19784]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T18:35:01.578048+00:00 alusani CRON[19784]: pam_unix(cron:session): session closed for user root
+2026-04-20T18:45:01.675036+00:00 alusani CRON[19797]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T18:45:01.680106+00:00 alusani CRON[19797]: pam_unix(cron:session): session closed for user root
+2026-04-20T18:55:01.892285+00:00 alusani CRON[19810]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T18:55:01.897034+00:00 alusani CRON[19810]: pam_unix(cron:session): session closed for user root
+2026-04-20T19:05:01.086111+00:00 alusani CRON[19822]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T19:05:01.090381+00:00 alusani CRON[19822]: pam_unix(cron:session): session closed for user root
+2026-04-20T19:15:01.209041+00:00 alusani CRON[19835]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T19:15:01.214281+00:00 alusani CRON[19835]: pam_unix(cron:session): session closed for user root
+2026-04-20T19:17:01.240233+00:00 alusani CRON[19841]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T19:17:01.246212+00:00 alusani CRON[19841]: pam_unix(cron:session): session closed for user root
+2026-04-20T19:25:01.319711+00:00 alusani CRON[19853]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T19:25:01.326105+00:00 alusani CRON[19853]: pam_unix(cron:session): session closed for user root
+2026-04-20T19:35:01.481260+00:00 alusani CRON[19865]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T19:35:01.484715+00:00 alusani CRON[19865]: pam_unix(cron:session): session closed for user root
+2026-04-20T19:45:01.620085+00:00 alusani CRON[19896]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T19:45:01.623881+00:00 alusani CRON[19896]: pam_unix(cron:session): session closed for user root
+2026-04-20T19:55:01.738500+00:00 alusani CRON[19912]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T19:55:01.744330+00:00 alusani CRON[19912]: pam_unix(cron:session): session closed for user root
+2026-04-20T20:05:01.879090+00:00 alusani CRON[19924]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T20:05:01.883327+00:00 alusani CRON[19924]: pam_unix(cron:session): session closed for user root
+2026-04-20T20:15:01.993143+00:00 alusani CRON[19937]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T20:15:01.997655+00:00 alusani CRON[19937]: pam_unix(cron:session): session closed for user root
+2026-04-20T20:17:01.014134+00:00 alusani CRON[19943]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T20:17:01.019923+00:00 alusani CRON[19943]: pam_unix(cron:session): session closed for user root
+2026-04-20T20:25:01.142712+00:00 alusani CRON[19954]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T20:25:01.148730+00:00 alusani CRON[19954]: pam_unix(cron:session): session closed for user root
+2026-04-20T20:35:01.221215+00:00 alusani CRON[19989]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T20:35:01.226149+00:00 alusani CRON[19989]: pam_unix(cron:session): session closed for user root
+2026-04-20T20:45:01.333630+00:00 alusani CRON[20032]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T20:45:01.338653+00:00 alusani CRON[20032]: pam_unix(cron:session): session closed for user root
+2026-04-20T20:55:01.433004+00:00 alusani CRON[20046]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T20:55:01.440352+00:00 alusani CRON[20046]: pam_unix(cron:session): session closed for user root
+2026-04-20T21:05:01.536172+00:00 alusani CRON[20058]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T21:05:01.540244+00:00 alusani CRON[20058]: pam_unix(cron:session): session closed for user root
+2026-04-20T21:15:01.669996+00:00 alusani CRON[20071]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T21:15:01.673664+00:00 alusani CRON[20071]: pam_unix(cron:session): session closed for user root
+2026-04-20T21:17:01.712299+00:00 alusani CRON[20077]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T21:17:01.717733+00:00 alusani CRON[20077]: pam_unix(cron:session): session closed for user root
+2026-04-20T21:25:01.898309+00:00 alusani CRON[20088]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T21:25:01.905159+00:00 alusani CRON[20088]: pam_unix(cron:session): session closed for user root
+2026-04-20T21:35:01.078959+00:00 alusani CRON[20120]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T21:35:01.082363+00:00 alusani CRON[20120]: pam_unix(cron:session): session closed for user root
+2026-04-20T21:45:01.243434+00:00 alusani CRON[20136]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T21:45:01.249312+00:00 alusani CRON[20136]: pam_unix(cron:session): session closed for user root
+2026-04-20T21:55:01.422469+00:00 alusani CRON[20149]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T21:55:01.426143+00:00 alusani CRON[20149]: pam_unix(cron:session): session closed for user root
+2026-04-20T22:05:01.512008+00:00 alusani CRON[20163]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T22:05:01.515381+00:00 alusani CRON[20163]: pam_unix(cron:session): session closed for user root
+2026-04-20T22:15:01.617334+00:00 alusani CRON[20175]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T22:15:01.622542+00:00 alusani CRON[20175]: pam_unix(cron:session): session closed for user root
+2026-04-20T22:17:01.659260+00:00 alusani CRON[20181]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T22:17:01.663428+00:00 alusani CRON[20181]: pam_unix(cron:session): session closed for user root
+2026-04-20T22:25:01.802271+00:00 alusani CRON[20192]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T22:25:01.807384+00:00 alusani CRON[20192]: pam_unix(cron:session): session closed for user root
+2026-04-20T22:35:01.972499+00:00 alusani CRON[20203]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T22:35:01.976210+00:00 alusani CRON[20203]: pam_unix(cron:session): session closed for user root
+2026-04-20T22:45:01.124877+00:00 alusani CRON[20215]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T22:45:01.128506+00:00 alusani CRON[20215]: pam_unix(cron:session): session closed for user root
+2026-04-20T22:55:01.238546+00:00 alusani CRON[20227]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T22:55:01.242587+00:00 alusani CRON[20227]: pam_unix(cron:session): session closed for user root
+2026-04-20T23:05:01.351435+00:00 alusani CRON[20263]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T23:05:01.358742+00:00 alusani CRON[20263]: pam_unix(cron:session): session closed for user root
+2026-04-20T23:15:01.510569+00:00 alusani CRON[20275]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T23:15:01.514343+00:00 alusani CRON[20275]: pam_unix(cron:session): session closed for user root
+2026-04-20T23:17:01.537164+00:00 alusani CRON[20281]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T23:17:01.543170+00:00 alusani CRON[20281]: pam_unix(cron:session): session closed for user root
+2026-04-20T23:25:01.631048+00:00 alusani CRON[20293]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-20T23:25:01.635410+00:00 alusani CRON[20293]: pam_unix(cron:session): session closed for user root
+2026-04-22T08:42:09.791896+00:00 alusani systemd-logind[860]: New seat seat0.
+2026-04-22T08:42:09.791897+00:00 alusani systemd-logind[860]: Watching system buttons on /dev/input/event0 (Power Button)
+2026-04-22T08:42:09.791898+00:00 alusani systemd-logind[860]: Watching system buttons on /dev/input/event3 (QEMU QEMU USB Keyboard)
+2026-04-22T08:42:09.807155+00:00 alusani polkitd[854]: Loading rules from directory /etc/polkit-1/rules.d
+2026-04-22T08:42:09.808492+00:00 alusani polkitd[854]: Loading rules from directory /run/polkit-1/rules.d
+2026-04-22T08:42:09.808539+00:00 alusani polkitd[854]: Error opening rules directory: Error opening directory “/run/polkit-1/rules.d”: No such file or directory (g-file-error-quark, 4)
+2026-04-22T08:42:09.808570+00:00 alusani polkitd[854]: Loading rules from directory /usr/local/share/polkit-1/rules.d
+2026-04-22T08:42:09.808635+00:00 alusani polkitd[854]: Error opening rules directory: Error opening directory “/usr/local/share/polkit-1/rules.d”: No such file or directory (g-file-error-quark, 4)
+2026-04-22T08:42:09.808648+00:00 alusani polkitd[854]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-04-22T08:42:09.813909+00:00 alusani polkitd[854]: Finished loading, compiling and executing 7 rules
+2026-04-22T08:42:09.816916+00:00 alusani polkitd[854]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2026-04-22T08:42:21.555004+00:00 alusani login: pam_unix(login:auth): check pass; user unknown
+2026-04-22T08:42:21.555162+00:00 alusani login: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost= 
+2026-04-22T08:42:23.993531+00:00 alusani login: FAILED LOGIN 1 FROM tty1 FOR bmwm04, Authentication failure
+2026-04-22T08:42:48.258195+00:00 alusani login: pam_unix(login:session): session opened for user alusaniadmin(uid=1000) by alusaniadmin(uid=0)
+2026-04-22T08:42:48.263412+00:00 alusani systemd-logind[860]: New session 1 of user alusaniadmin.
+2026-04-22T08:42:48.289692+00:00 alusani (systemd): pam_unix(systemd-user:session): session opened for user alusaniadmin(uid=1000) by alusaniadmin(uid=0)
+2026-04-22T08:42:48.290569+00:00 alusani systemd-logind[860]: New session 2 of user alusaniadmin.
+2026-04-22T08:45:01.936306+00:00 alusani CRON[1271]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-22T08:45:01.940304+00:00 alusani CRON[1271]: pam_unix(cron:session): session closed for user root
+2026-04-22T08:51:05.693948+00:00 alusani sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alusaniadmin(uid=1000)
+2026-04-22T08:51:05.694249+00:00 alusani sudo: alusaniadmin : TTY=/dev/tty1 ; PWD=/home/alusaniadmin ; USER=root ; COMMAND=/usr/bin/mkdir /company
+2026-04-22T08:51:05.697865+00:00 alusani sudo: pam_unix(sudo:session): session closed for user root
+2026-04-22T08:51:20.220932+00:00 alusani sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alusaniadmin(uid=1000)
+2026-04-22T08:51:20.221077+00:00 alusani sudo: alusaniadmin : TTY=/dev/tty1 ; PWD=/home/alusaniadmin ; USER=root ; COMMAND=/usr/bin/mkdir /company/hr
+2026-04-22T08:51:20.223940+00:00 alusani sudo: pam_unix(sudo:session): session closed for user root
+2026-04-22T08:51:33.657183+00:00 alusani sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alusaniadmin(uid=1000)
+2026-04-22T08:51:33.657363+00:00 alusani sudo: alusaniadmin : TTY=/dev/tty1 ; PWD=/home/alusaniadmin ; USER=root ; COMMAND=/usr/bin/mkdir /company/finance
+2026-04-22T08:51:33.660607+00:00 alusani sudo: pam_unix(sudo:session): session closed for user root
+2026-04-22T08:51:47.094709+00:00 alusani sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alusaniadmin(uid=1000)
+2026-04-22T08:51:47.094855+00:00 alusani sudo: alusaniadmin : TTY=/dev/tty1 ; PWD=/home/alusaniadmin ; USER=root ; COMMAND=/usr/bin/mkdir /company/it
+2026-04-22T08:51:47.097944+00:00 alusani sudo: pam_unix(sudo:session): session closed for user root
+2026-04-22T08:52:56.444195+00:00 alusani sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alusaniadmin(uid=1000)
+2026-04-22T08:52:56.447842+00:00 alusani sudo: alusaniadmin : TTY=/dev/tty1 ; PWD=/home/alusaniadmin ; USER=root ; COMMAND=/usr/bin/chown :hr /company/hr
+2026-04-22T08:52:56.447903+00:00 alusani sudo: pam_unix(sudo:session): session closed for user root
+2026-04-22T08:53:23.541232+00:00 alusani sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alusaniadmin(uid=1000)
+2026-04-22T08:53:23.541404+00:00 alusani sudo: alusaniadmin : TTY=/dev/tty1 ; PWD=/home/alusaniadmin ; USER=root ; COMMAND=/usr/bin/chown :finance /company/finance
+2026-04-22T08:53:23.543061+00:00 alusani sudo: pam_unix(sudo:session): session closed for user root
+2026-04-22T08:53:39.677245+00:00 alusani sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alusaniadmin(uid=1000)
+2026-04-22T08:53:39.677633+00:00 alusani sudo: alusaniadmin : TTY=/dev/tty1 ; PWD=/home/alusaniadmin ; USER=root ; COMMAND=/usr/bin/chown :it /company/it
+2026-04-22T08:53:39.679093+00:00 alusani sudo: pam_unix(sudo:session): session closed for user root
+2026-04-22T08:55:01.980138+00:00 alusani CRON[1775]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-22T08:55:01.984835+00:00 alusani CRON[1775]: pam_unix(cron:session): session closed for user root
+2026-04-22T08:55:48.364681+00:00 alusani sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alusaniadmin(uid=1000)
+2026-04-22T08:55:48.364860+00:00 alusani sudo: alusaniadmin : TTY=/dev/tty1 ; PWD=/home/alusaniadmin ; USER=root ; COMMAND=/usr/bin/chmod 770 /company/hr
+2026-04-22T08:55:48.365838+00:00 alusani sudo: pam_unix(sudo:session): session closed for user root
+2026-04-22T08:56:08.484995+00:00 alusani sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alusaniadmin(uid=1000)
+2026-04-22T08:56:08.485189+00:00 alusani sudo: alusaniadmin : TTY=/dev/tty1 ; PWD=/home/alusaniadmin ; USER=root ; COMMAND=/usr/bin/chmod 770 /company/finance
+2026-04-22T08:56:08.487387+00:00 alusani sudo: pam_unix(sudo:session): session closed for user root
+2026-04-22T08:56:27.350848+00:00 alusani sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alusaniadmin(uid=1000)
+2026-04-22T08:56:27.351058+00:00 alusani sudo: alusaniadmin : TTY=/dev/tty1 ; PWD=/home/alusaniadmin ; USER=root ; COMMAND=/usr/bin/chmod 770 /company/it
+2026-04-22T08:56:27.353868+00:00 alusani sudo: pam_unix(sudo:session): session closed for user root
+2026-04-22T08:58:38.991832+00:00 alusani su[1804]: (to hr_user) alusaniadmin on tty1
+2026-04-22T08:58:38.993682+00:00 alusani su[1804]: pam_unix(su-l:session): session opened for user hr_user(uid=1004) by alusaniadmin(uid=1000)
+2026-04-22T09:00:03.409861+00:00 alusani su[1833]: (to alusaniadmin) hr_user on tty1
+2026-04-22T09:00:03.423740+00:00 alusani su[1833]: pam_unix(su-l:session): session opened for user alusaniadmin(uid=1000) by alusaniadmin(uid=1004)
+2026-04-22T09:05:01.025898+00:00 alusani CRON[1868]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-22T09:05:01.030727+00:00 alusani CRON[1868]: pam_unix(cron:session): session closed for user root
+2026-04-22T09:11:38.928740+00:00 alusani sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alusaniadmin(uid=1000)
+2026-04-22T09:11:38.932401+00:00 alusani sudo: alusaniadmin : TTY=/dev/tty1 ; PWD=/home/alusaniadmin ; USER=root ; COMMAND=/usr/bin/nano etc/ssh/sshd_config
+2026-04-22T09:15:01.081836+00:00 alusani CRON[1912]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-22T09:15:01.084285+00:00 alusani CRON[1912]: pam_unix(cron:session): session closed for user root
+2026-04-22T09:16:20.499774+00:00 alusani sudo: pam_unix(sudo:session): session closed for user root
+2026-04-22T09:17:01.157672+00:00 alusani CRON[1919]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-22T09:17:01.160969+00:00 alusani CRON[1919]: pam_unix(cron:session): session closed for user root
+2026-04-22T09:17:22.091543+00:00 alusani sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alusaniadmin(uid=1000)
+2026-04-22T09:17:22.091849+00:00 alusani sudo: alusaniadmin : TTY=/dev/tty1 ; PWD=/home/alusaniadmin ; USER=root ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config
+2026-04-22T09:21:04.160706+00:00 alusani sudo: pam_unix(sudo:session): session closed for user root
+2026-04-22T09:21:38.647226+00:00 alusani sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alusaniadmin(uid=1000)
+2026-04-22T09:21:38.650819+00:00 alusani sudo: alusaniadmin : TTY=/dev/tty1 ; PWD=/home/alusaniadmin ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+2026-04-22T09:21:38.697981+00:00 alusani sshd[1949]: Server listening on 0.0.0.0 port 22.
+2026-04-22T09:21:38.698091+00:00 alusani sshd[1949]: Server listening on :: port 22.
+2026-04-22T09:21:38.698781+00:00 alusani sudo: pam_unix(sudo:session): session closed for user root
+2026-04-22T09:22:00.546507+00:00 alusani sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alusaniadmin(uid=1000)
+2026-04-22T09:22:00.546727+00:00 alusani sudo: alusaniadmin : TTY=/dev/tty1 ; PWD=/home/alusaniadmin ; USER=root ; COMMAND=/usr/sbin/ufw allow 2222
+2026-04-22T09:22:00.665134+00:00 alusani sudo: pam_unix(sudo:session): session closed for user root
+2026-04-22T09:25:01.318185+00:00 alusani CRON[1977]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-22T09:25:01.321394+00:00 alusani CRON[1977]: pam_unix(cron:session): session closed for user root
+2026-04-22T09:27:03.065990+00:00 alusani sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alusaniadmin(uid=1000)
+2026-04-22T09:27:03.069268+00:00 alusani sudo: alusaniadmin : TTY=/dev/tty1 ; PWD=/home/alusaniadmin ; USER=root ; COMMAND=/usr/bin/systemctl status ssh
+2026-04-22T09:27:03.098070+00:00 alusani sudo: pam_unix(sudo:session): session closed for user root
+2026-04-22T09:28:10.283962+00:00 alusani sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alusaniadmin(uid=1000)
+2026-04-22T09:28:10.284483+00:00 alusani sudo: alusaniadmin : TTY=/dev/tty1 ; PWD=/home/alusaniadmin ; USER=root ; COMMAND=/usr/bin/ss -tulnp
+2026-04-22T09:28:10.304451+00:00 alusani sudo: pam_unix(sudo:session): session closed for user root
+2026-04-22T09:29:22.284208+00:00 alusani sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alusaniadmin(uid=1000)
+2026-04-22T09:29:22.285017+00:00 alusani sudo: alusaniadmin : TTY=/dev/tty1 ; PWD=/home/alusaniadmin ; USER=root ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config
+2026-04-22T09:31:22.255132+00:00 alusani sudo: pam_unix(sudo:session): session closed for user root
+2026-04-22T09:32:51.082006+00:00 alusani sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alusaniadmin(uid=1000)
+2026-04-22T09:32:51.085091+00:00 alusani sudo: alusaniadmin : TTY=/dev/tty1 ; PWD=/home/alusaniadmin ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+2026-04-22T09:32:51.090169+00:00 alusani sshd[1949]: Received signal 15; terminating.
+2026-04-22T09:32:51.131768+00:00 alusani sshd[2023]: Server listening on 0.0.0.0 port 22.
+2026-04-22T09:32:51.131838+00:00 alusani sshd[2023]: Server listening on :: port 22.
+2026-04-22T09:32:51.132538+00:00 alusani sudo: pam_unix(sudo:session): session closed for user root
+2026-04-22T09:33:20.842934+00:00 alusani sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alusaniadmin(uid=1000)
+2026-04-22T09:33:20.843159+00:00 alusani sudo: alusaniadmin : TTY=/dev/tty1 ; PWD=/home/alusaniadmin ; USER=root ; COMMAND=/usr/bin/ss -tulnp
+2026-04-22T09:33:20.852241+00:00 alusani sudo: pam_unix(sudo:session): session closed for user root
+2026-04-22T09:35:01.472390+00:00 alusani CRON[2032]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-22T09:35:01.473691+00:00 alusani CRON[2032]: pam_unix(cron:session): session closed for user root
+2026-04-22T09:37:45.159228+00:00 alusani sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alusaniadmin(uid=1000)
+2026-04-22T09:37:45.159484+00:00 alusani sudo: alusaniadmin : TTY=/dev/tty1 ; PWD=/home/alusaniadmin ; USER=root ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config
+2026-04-22T09:39:35.335306+00:00 alusani sudo: pam_unix(sudo:session): session closed for user root
+2026-04-22T09:39:59.887053+00:00 alusani sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alusaniadmin(uid=1000)
+2026-04-22T09:39:59.887291+00:00 alusani sudo: alusaniadmin : TTY=/dev/tty1 ; PWD=/home/alusaniadmin ; USER=root ; COMMAND=/usr/bin/systemctl daemon-reexec
+2026-04-22T09:40:00.040287+00:00 alusani sudo: pam_unix(sudo:session): session closed for user root
+2026-04-22T09:40:25.898441+00:00 alusani sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alusaniadmin(uid=1000)
+2026-04-22T09:40:25.899404+00:00 alusani sudo: alusaniadmin : TTY=/dev/tty1 ; PWD=/home/alusaniadmin ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh.socket
+2026-04-22T09:40:25.910773+00:00 alusani sshd[2023]: Received signal 15; terminating.
+2026-04-22T09:40:25.927664+00:00 alusani sudo: pam_unix(sudo:session): session closed for user root
+2026-04-22T09:40:25.945673+00:00 alusani sshd[2109]: Server listening on 0.0.0.0 port 2222.
+2026-04-22T09:40:25.945737+00:00 alusani sshd[2109]: Server listening on :: port 2222.
+2026-04-22T09:41:07.012689+00:00 alusani sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alusaniadmin(uid=1000)
+2026-04-22T09:41:07.013221+00:00 alusani sudo: alusaniadmin : TTY=/dev/tty1 ; PWD=/home/alusaniadmin ; USER=root ; COMMAND=/usr/bin/ss -tulnp
+2026-04-22T09:41:07.025705+00:00 alusani sudo: pam_unix(sudo:session): session closed for user root
+2026-04-22T09:41:56.948177+00:00 alusani sshd-session[2119]: Accepted password for alusaniadmin from 127.0.0.1 port 47340 ssh2
+2026-04-22T09:41:56.951620+00:00 alusani sshd-session[2119]: pam_unix(sshd:session): session opened for user alusaniadmin(uid=1000) by alusaniadmin(uid=0)
+2026-04-22T09:41:56.957958+00:00 alusani systemd-logind[860]: New session 10 of user alusaniadmin.
+2026-04-22T09:45:01.657970+00:00 alusani CRON[2202]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-22T09:45:01.662414+00:00 alusani CRON[2202]: pam_unix(cron:session): session closed for user root
+2026-04-22T09:55:01.879703+00:00 alusani CRON[2214]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-22T09:55:01.882405+00:00 alusani CRON[2214]: pam_unix(cron:session): session closed for user root
+2026-04-22T10:05:01.059805+00:00 alusani CRON[2227]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-22T10:05:01.063820+00:00 alusani CRON[2227]: pam_unix(cron:session): session closed for user root
+2026-04-22T10:13:31.078758+00:00 alusani sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alusaniadmin(uid=1000)
+2026-04-22T10:13:31.083809+00:00 alusani sudo: alusaniadmin : TTY=/dev/pts/0 ; PWD=/home/alusaniadmin ; USER=root ; COMMAND=/usr/sbin/ufw status
+2026-04-22T10:13:31.129704+00:00 alusani sudo: pam_unix(sudo:session): session closed for user root
+2026-04-22T10:14:05.775736+00:00 alusani sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alusaniadmin(uid=1000)
+2026-04-22T10:14:05.775999+00:00 alusani sudo: alusaniadmin : TTY=/dev/pts/0 ; PWD=/home/alusaniadmin ; USER=root ; COMMAND=/usr/sbin/ufw default deny incoming
+2026-04-22T10:14:05.815907+00:00 alusani sudo: pam_unix(sudo:session): session closed for user root
+2026-04-22T10:14:48.363015+00:00 alusani sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alusaniadmin(uid=1000)
+2026-04-22T10:14:48.363363+00:00 alusani sudo: alusaniadmin : TTY=/dev/pts/0 ; PWD=/home/alusaniadmin ; USER=root ; COMMAND=/usr/sbin/ufw defualt allow outgoing
+2026-04-22T10:14:48.419938+00:00 alusani sudo: pam_unix(sudo:session): session closed for user root
+2026-04-22T10:15:01.246821+00:00 alusani CRON[2259]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-22T10:15:01.249113+00:00 alusani CRON[2259]: pam_unix(cron:session): session closed for user root
+2026-04-22T10:15:48.676655+00:00 alusani sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alusaniadmin(uid=1000)
+2026-04-22T10:15:48.679276+00:00 alusani sudo: alusaniadmin : TTY=/dev/pts/0 ; PWD=/home/alusaniadmin ; USER=root ; COMMAND=/usr/sbin/ufw default allow outgoing
+2026-04-22T10:15:48.727237+00:00 alusani sudo: pam_unix(sudo:session): session closed for user root
+2026-04-22T10:16:56.216195+00:00 alusani sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alusaniadmin(uid=1000)
+2026-04-22T10:16:56.216595+00:00 alusani sudo: alusaniadmin : TTY=/dev/pts/0 ; PWD=/home/alusaniadmin ; USER=root ; COMMAND=/usr/sbin/ufw allow 2222/tcp
+2026-04-22T10:16:56.314384+00:00 alusani sudo: pam_unix(sudo:session): session closed for user root
+2026-04-22T10:17:01.275234+00:00 alusani CRON[2288]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-22T10:17:01.278199+00:00 alusani CRON[2288]: pam_unix(cron:session): session closed for user root
+2026-04-22T10:17:09.659298+00:00 alusani sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alusaniadmin(uid=1000)
+2026-04-22T10:17:09.659614+00:00 alusani sudo: alusaniadmin : TTY=/dev/pts/0 ; PWD=/home/alusaniadmin ; USER=root ; COMMAND=/usr/sbin/ufw enable
+2026-04-22T10:17:17.143079+00:00 alusani sudo: pam_unix(sudo:session): session closed for user root
+2026-04-22T10:17:51.945928+00:00 alusani sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alusaniadmin(uid=1000)
+2026-04-22T10:17:51.946233+00:00 alusani sudo: alusaniadmin : TTY=/dev/pts/0 ; PWD=/home/alusaniadmin ; USER=root ; COMMAND=/usr/sbin/ufw status verbose
+2026-04-22T10:17:51.998739+00:00 alusani sudo: pam_unix(sudo:session): session closed for user root
+2026-04-22T10:22:34.043926+00:00 alusani sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alusaniadmin(uid=1000)
+2026-04-22T10:22:34.048220+00:00 alusani sudo: alusaniadmin : TTY=/dev/pts/0 ; PWD=/home/alusaniadmin ; USER=root ; COMMAND=/usr/bin/apt updatw
+2026-04-22T10:22:34.054908+00:00 alusani sudo: pam_unix(sudo:session): session closed for user root
+2026-04-22T10:22:42.084145+00:00 alusani sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alusaniadmin(uid=1000)
+2026-04-22T10:22:42.084791+00:00 alusani sudo: alusaniadmin : TTY=/dev/pts/0 ; PWD=/home/alusaniadmin ; USER=root ; COMMAND=/usr/bin/apt update
+2026-04-22T10:22:49.845943+00:00 alusani sudo: pam_unix(sudo:session): session closed for user root
+2026-04-22T10:24:25.763929+00:00 alusani sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alusaniadmin(uid=1000)
+2026-04-22T10:24:25.764319+00:00 alusani sudo: alusaniadmin : TTY=/dev/pts/0 ; PWD=/home/alusaniadmin ; USER=root ; COMMAND=/usr/bin/apt install fail2ban -y
+2026-04-22T10:24:33.354172+00:00 alusani sudo: pam_unix(sudo:session): session closed for user root
+2026-04-22T10:25:01.406359+00:00 alusani CRON[8544]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-22T10:25:01.410090+00:00 alusani CRON[8544]: pam_unix(cron:session): session closed for user root
+2026-04-22T10:25:26.112174+00:00 alusani sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alusaniadmin(uid=1000)
+2026-04-22T10:25:26.112539+00:00 alusani sudo: alusaniadmin : TTY=/dev/pts/0 ; PWD=/home/alusaniadmin ; USER=root ; COMMAND=/usr/bin/systemctl enable fail2ban
+2026-04-22T10:25:26.424963+00:00 alusani sudo: pam_unix(sudo:session): session closed for user root
+2026-04-22T10:25:42.466082+00:00 alusani sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alusaniadmin(uid=1000)
+2026-04-22T10:25:42.466432+00:00 alusani sudo: alusaniadmin : TTY=/dev/pts/0 ; PWD=/home/alusaniadmin ; USER=root ; COMMAND=/usr/bin/systemctl start fail2ban
+2026-04-22T10:25:42.481173+00:00 alusani sudo: pam_unix(sudo:session): session closed for user root
+2026-04-22T10:27:37.569687+00:00 alusani sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alusaniadmin(uid=1000)
+2026-04-22T10:27:37.574434+00:00 alusani sudo: alusaniadmin : TTY=/dev/pts/0 ; PWD=/home/alusaniadmin ; USER=root ; COMMAND=/usr/bin/cp /etc/fail2ban/fail.conf /etc/fail2ban/fail.local
+2026-04-22T10:27:37.575758+00:00 alusani sudo: pam_unix(sudo:session): session closed for user root
+2026-04-22T10:31:40.277839+00:00 alusani sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alusaniadmin(uid=1000)
+2026-04-22T10:31:40.278181+00:00 alusani sudo: alusaniadmin : TTY=/dev/pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local
+2026-04-22T10:31:40.280184+00:00 alusani sudo: pam_unix(sudo:session): session closed for user root
+2026-04-22T10:32:09.823840+00:00 alusani sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alusaniadmin(uid=1000)
+2026-04-22T10:32:09.824059+00:00 alusani sudo: alusaniadmin : TTY=/dev/pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/nano /etc/fail2ban/jail.local
+2026-04-22T10:35:01.476072+00:00 alusani CRON[8772]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-22T10:35:01.480164+00:00 alusani CRON[8772]: pam_unix(cron:session): session closed for user root
+2026-04-22T10:40:29.383246+00:00 alusani sudo: pam_unix(sudo:session): session closed for user root
+2026-04-22T10:40:43.844641+00:00 alusani sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alusaniadmin(uid=1000)
+2026-04-22T10:40:43.844895+00:00 alusani sudo: alusaniadmin : TTY=/dev/pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/systemctl restart fail2ban
+2026-04-22T10:40:44.603933+00:00 alusani sudo: pam_unix(sudo:session): session closed for user root
+2026-04-22T10:41:17.193534+00:00 alusani sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alusaniadmin(uid=1000)
+2026-04-22T10:41:17.193919+00:00 alusani sudo: alusaniadmin : TTY=/dev/pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/fail2ban-client status
+2026-04-22T10:41:17.248082+00:00 alusani sudo: pam_unix(sudo:session): session closed for user root
+2026-04-22T10:44:06.505138+00:00 alusani sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alusaniadmin(uid=1000)
+2026-04-22T10:44:06.505531+00:00 alusani sudo: alusaniadmin : TTY=/dev/pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/systemctl restart fail2ban
+2026-04-22T10:44:06.523712+00:00 alusani sudo: pam_unix(sudo:session): session closed for user root
+2026-04-22T10:44:30.741200+00:00 alusani sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alusaniadmin(uid=1000)
+2026-04-22T10:44:30.741687+00:00 alusani sudo: alusaniadmin : TTY=/dev/pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/systemctl start fail2ban
+2026-04-22T10:44:30.758258+00:00 alusani sudo: pam_unix(sudo:session): session closed for user root
+2026-04-22T10:44:45.207609+00:00 alusani sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alusaniadmin(uid=1000)
+2026-04-22T10:44:45.207892+00:00 alusani sudo: alusaniadmin : TTY=/dev/pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/systemctl enable fail2ban
+2026-04-22T10:44:45.530790+00:00 alusani sudo: pam_unix(sudo:session): session closed for user root
+2026-04-22T10:45:01.671923+00:00 alusani CRON[8970]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-22T10:45:01.673960+00:00 alusani CRON[8970]: pam_unix(cron:session): session closed for user root
+2026-04-22T10:45:12.153565+00:00 alusani sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alusaniadmin(uid=1000)
+2026-04-22T10:45:12.153833+00:00 alusani sudo: alusaniadmin : TTY=/dev/pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/systemctl fail2ban status
+2026-04-22T10:45:12.164198+00:00 alusani sudo: pam_unix(sudo:session): session closed for user root
+2026-04-22T10:45:29.775964+00:00 alusani sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alusaniadmin(uid=1000)
+2026-04-22T10:45:29.783742+00:00 alusani sudo: alusaniadmin : TTY=/dev/pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/systemctl status fail2ban
+2026-04-22T10:47:07.863315+00:00 alusani sudo: pam_unix(sudo:session): session closed for user root
+2026-04-22T10:47:56.770799+00:00 alusani sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alusaniadmin(uid=1000)
+2026-04-22T10:47:56.771100+00:00 alusani sudo: alusaniadmin : TTY=/dev/pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/rm /etc/fail2ban/jail.local
+2026-04-22T10:47:56.772643+00:00 alusani sudo: pam_unix(sudo:session): session closed for user root
+2026-04-22T10:48:19.137809+00:00 alusani sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alusaniadmin(uid=1000)
+2026-04-22T10:48:19.138042+00:00 alusani sudo: alusaniadmin : TTY=/dev/pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/nano /etc/fail2ban/jail.local
+2026-04-22T10:53:39.577944+00:00 alusani sudo: pam_unix(sudo:session): session closed for user root
+2026-04-22T10:54:03.990930+00:00 alusani sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alusaniadmin(uid=1000)
+2026-04-22T10:54:03.991162+00:00 alusani sudo: alusaniadmin : TTY=/dev/pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/systemctl restart fail2ban
+2026-04-22T10:54:04.005646+00:00 alusani sudo: pam_unix(sudo:session): session closed for user root
+2026-04-22T10:54:27.858436+00:00 alusani sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alusaniadmin(uid=1000)
+2026-04-22T10:54:27.858814+00:00 alusani sudo: alusaniadmin : TTY=/dev/pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/systemctl status fail2ban
+2026-04-22T10:54:27.874304+00:00 alusani sudo: pam_unix(sudo:session): session closed for user root
+2026-04-22T10:55:01.770798+00:00 alusani CRON[9023]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-22T10:55:01.773331+00:00 alusani CRON[9023]: pam_unix(cron:session): session closed for user root
+2026-04-22T10:55:15.314149+00:00 alusani sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alusaniadmin(uid=1000)
+2026-04-22T10:55:15.314385+00:00 alusani sudo: alusaniadmin : TTY=/dev/pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/fail2ban-client status
+2026-04-22T10:55:15.359438+00:00 alusani sudo: pam_unix(sudo:session): session closed for user root
+2026-04-22T10:56:00.539651+00:00 alusani sshd-session[9032]: Accepted password for alusaniadmin from 127.0.0.1 port 37932 ssh2
+2026-04-22T10:56:00.540696+00:00 alusani sshd-session[9032]: pam_unix(sshd:session): session opened for user alusaniadmin(uid=1000) by alusaniadmin(uid=0)
+2026-04-22T10:56:00.545163+00:00 alusani systemd-logind[860]: New session 20 of user alusaniadmin.
+2026-04-22T10:56:37.733758+00:00 alusani sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alusaniadmin(uid=1000)
+2026-04-22T10:56:37.734162+00:00 alusani sudo: alusaniadmin : TTY=/dev/pts/1 ; PWD=/home/alusaniadmin ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-04-22T10:56:37.786503+00:00 alusani sudo: pam_unix(sudo:session): session closed for user root
+2026-04-22T11:01:01.719160+00:00 alusani sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alusaniadmin(uid=1000)
+2026-04-22T11:01:01.722789+00:00 alusani sudo: alusaniadmin : TTY=/dev/pts/1 ; PWD=/home/alusaniadmin ; USER=root ; COMMAND=/usr/bin/cat /var/log/auth.log
+2026-04-22T11:01:01.727456+00:00 alusani sudo: pam_unix(sudo:session): session closed for user root
+2026-04-22T11:05:01.904901+00:00 alusani CRON[9177]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-22T11:05:01.908231+00:00 alusani CRON[9177]: pam_unix(cron:session): session closed for user root
+2026-04-22T11:05:33.548859+00:00 alusani sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alusaniadmin(uid=1000)
+2026-04-22T11:05:33.552129+00:00 alusani sudo: alusaniadmin : TTY=/dev/pts/1 ; PWD=/home/alusaniadmin ; USER=root ; COMMAND=/usr/bin/cat /var/log/auth.log
+2026-04-22T11:05:33.553357+00:00 alusani sudo: pam_unix(sudo:session): session closed for user root
+2026-04-22T11:09:33.731135+00:00 alusani sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alusaniadmin(uid=1000)
+2026-04-22T11:09:33.732231+00:00 alusani sudo: alusaniadmin : TTY=/dev/pts/1 ; PWD=/home/alusaniadmin ; USER=root ; COMMAND=/usr/bin/tail -f /var/log/auth.log
+2026-04-22T11:13:40.858754+00:00 alusani sudo: pam_unix(sudo:session): session closed for user root
+2026-04-22T11:15:01.062715+00:00 alusani CRON[9226]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-22T11:15:01.066063+00:00 alusani CRON[9226]: pam_unix(cron:session): session closed for user root
+2026-04-22T11:17:01.096732+00:00 alusani CRON[9231]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-22T11:17:01.100406+00:00 alusani CRON[9231]: pam_unix(cron:session): session closed for user root
+2026-04-22T11:23:20.986440+00:00 alusani sshd-session[9281]: Accepted password for alusaniadmin from 192.168.64.3 port 52968 ssh2
+2026-04-22T11:23:20.989895+00:00 alusani sshd-session[9281]: pam_unix(sshd:session): session opened for user alusaniadmin(uid=1000) by alusaniadmin(uid=0)
+2026-04-22T11:23:20.997353+00:00 alusani systemd-logind[860]: New session 24 of user alusaniadmin.
+2026-04-22T11:23:57.256783+00:00 alusani sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alusaniadmin(uid=1000)
+2026-04-22T11:23:57.262551+00:00 alusani sudo: alusaniadmin : TTY=/dev/pts/2 ; PWD=/home/alusaniadmin ; USER=root ; COMMAND=/usr/bin/tail -f /var/log/auth.log
+2026-04-22T11:25:01.284843+00:00 alusani CRON[9369]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-22T11:25:01.289224+00:00 alusani CRON[9369]: pam_unix(cron:session): session closed for user root
+2026-04-22T11:25:34.712766+00:00 alusani unix_chkpwd[9375]: password check failed for user (alusaniadmin)
+2026-04-22T11:25:34.713339+00:00 alusani sshd-session[9373]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.64.1  user=alusaniadmin
+2026-04-22T11:25:37.290739+00:00 alusani sshd-session[9373]: Failed password for alusaniadmin from 192.168.64.1 port 51826 ssh2
+2026-04-22T11:25:46.122954+00:00 alusani sshd-session[9373]: Accepted password for alusaniadmin from 192.168.64.1 port 51826 ssh2
+2026-04-22T11:25:46.130222+00:00 alusani sshd-session[9373]: pam_unix(sshd:session): session opened for user alusaniadmin(uid=1000) by alusaniadmin(uid=0)
+2026-04-22T11:25:46.138265+00:00 alusani systemd-logind[860]: New session 26 of user alusaniadmin.
+2026-04-22T11:27:08.927084+00:00 alusani sudo: pam_unix(sudo:session): session closed for user root
+2026-04-22T11:27:39.835825+00:00 alusani sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alusaniadmin(uid=1000)
+2026-04-22T11:27:39.836178+00:00 alusani sudo: alusaniadmin : TTY=/dev/pts/2 ; PWD=/home/alusaniadmin ; USER=root ; COMMAND=/usr/bin/grep Ban /var/log/auth.log
+2026-04-22T11:27:39.838041+00:00 alusani sudo: pam_unix(sudo:session): session closed for user root
+2026-04-22T11:29:01.405406+00:00 alusani sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alusaniadmin(uid=1000)
+2026-04-22T11:29:01.410371+00:00 alusani sudo: alusaniadmin : TTY=/dev/pts/2 ; PWD=/home/alusaniadmin ; USER=root ; COMMAND=/usr/bin/grep Failed password /var/log/auth.log
+2026-04-22T11:29:01.410536+00:00 alusani sudo: pam_unix(sudo:session): session closed for user root
+2026-04-22T11:29:23.723975+00:00 alusani sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alusaniadmin(uid=1000)
+2026-04-22T11:29:23.724293+00:00 alusani sudo: alusaniadmin : TTY=/dev/pts/2 ; PWD=/home/alusaniadmin ; USER=root ; COMMAND=/usr/bin/grep sshd /var/log/auth.log
+2026-04-22T11:29:23.726446+00:00 alusani sudo: pam_unix(sudo:session): session closed for user root
+2026-04-22T11:35:01.432044+00:00 alusani CRON[9481]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-22T11:35:01.438351+00:00 alusani CRON[9481]: pam_unix(cron:session): session closed for user root
+2026-04-22T11:45:01.541968+00:00 alusani CRON[9494]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-22T11:45:01.547361+00:00 alusani CRON[9494]: pam_unix(cron:session): session closed for user root
+2026-04-22T11:55:01.706481+00:00 alusani CRON[9510]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-22T11:55:01.711061+00:00 alusani CRON[9510]: pam_unix(cron:session): session closed for user root
+2026-04-22T12:05:01.813122+00:00 alusani CRON[9524]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-22T12:05:01.817422+00:00 alusani CRON[9524]: pam_unix(cron:session): session closed for user root
+2026-04-22T12:15:01.966809+00:00 alusani CRON[9538]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-22T12:15:01.971102+00:00 alusani CRON[9538]: pam_unix(cron:session): session closed for user root
+2026-04-22T12:17:01.995136+00:00 alusani CRON[9543]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-22T12:17:02.000267+00:00 alusani CRON[9543]: pam_unix(cron:session): session closed for user root
+2026-04-22T12:25:01.110246+00:00 alusani CRON[9555]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-22T12:25:01.115727+00:00 alusani CRON[9555]: pam_unix(cron:session): session closed for user root
+2026-04-22T12:35:01.275900+00:00 alusani CRON[9585]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-22T12:35:01.279932+00:00 alusani CRON[9585]: pam_unix(cron:session): session closed for user root
+2026-04-22T12:35:17.955718+00:00 alusani sshd-session[9432]: Received disconnect from 192.168.64.1 port 51826:11: disconnected by user
+2026-04-22T12:35:17.960178+00:00 alusani sshd-session[9432]: Disconnected from user alusaniadmin 192.168.64.1 port 51826
+2026-04-22T12:35:17.960696+00:00 alusani sshd-session[9373]: pam_unix(sshd:session): session closed for user alusaniadmin
+2026-04-22T12:35:17.968097+00:00 alusani sshd-session[9373]: syslogin_perform_logout: logout() returned an error
+2026-04-22T12:35:17.971223+00:00 alusani systemd-logind[860]: Session 26 logged out. Waiting for processes to exit.
+2026-04-22T12:35:17.973320+00:00 alusani systemd-logind[860]: Removed session 26.
+2026-04-22T12:45:01.377306+00:00 alusani CRON[9603]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-22T12:45:01.383830+00:00 alusani CRON[9603]: pam_unix(cron:session): session closed for user root
+2026-04-22T12:55:01.498262+00:00 alusani CRON[9616]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-22T12:55:01.502566+00:00 alusani CRON[9616]: pam_unix(cron:session): session closed for user root
+2026-04-22T13:05:01.590773+00:00 alusani CRON[9631]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-22T13:05:01.593837+00:00 alusani CRON[9631]: pam_unix(cron:session): session closed for user root
+2026-04-22T13:15:01.725434+00:00 alusani CRON[9643]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-22T13:15:01.729304+00:00 alusani CRON[9643]: pam_unix(cron:session): session closed for user root
+2026-04-22T13:17:01.765459+00:00 alusani CRON[9648]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-22T13:17:01.770346+00:00 alusani CRON[9648]: pam_unix(cron:session): session closed for user root
+2026-04-22T13:25:01.844956+00:00 alusani CRON[9661]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-22T13:25:01.849192+00:00 alusani CRON[9661]: pam_unix(cron:session): session closed for user root
+2026-04-22T13:35:01.948749+00:00 alusani CRON[9677]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-22T13:35:01.953965+00:00 alusani CRON[9677]: pam_unix(cron:session): session closed for user root
+2026-04-22T13:45:01.061857+00:00 alusani CRON[9707]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-22T13:45:01.064250+00:00 alusani CRON[9707]: pam_unix(cron:session): session closed for user root
+2026-04-22T13:55:01.175718+00:00 alusani CRON[9725]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-22T13:55:01.181476+00:00 alusani CRON[9725]: pam_unix(cron:session): session closed for user root
+2026-04-22T14:05:01.283348+00:00 alusani CRON[9757]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-22T14:05:01.285383+00:00 alusani CRON[9757]: pam_unix(cron:session): session closed for user root
+2026-04-22T14:15:01.385917+00:00 alusani CRON[9773]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-22T14:15:01.392967+00:00 alusani CRON[9773]: pam_unix(cron:session): session closed for user root
+2026-04-22T14:17:01.421197+00:00 alusani CRON[9778]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-22T14:17:01.425859+00:00 alusani CRON[9778]: pam_unix(cron:session): session closed for user root
+2026-04-22T14:21:38.859739+00:00 alusani sshd-session[9794]: Accepted password for alusaniadmin from 192.168.64.3 port 53088 ssh2
+2026-04-22T14:21:38.861946+00:00 alusani sshd-session[9794]: pam_unix(sshd:session): session opened for user alusaniadmin(uid=1000) by alusaniadmin(uid=0)
+2026-04-22T14:21:38.870819+00:00 alusani systemd-logind[860]: New session 47 of user alusaniadmin.
+2026-04-22T14:21:39.101926+00:00 alusani sshd-session[9893]: Received disconnect from 192.168.64.3 port 53088:11: disconnected by user
+2026-04-22T14:21:39.103471+00:00 alusani sshd-session[9893]: Disconnected from user alusaniadmin 192.168.64.3 port 53088
+2026-04-22T14:21:39.103547+00:00 alusani sshd-session[9794]: pam_unix(sshd:session): session closed for user alusaniadmin
+2026-04-22T14:21:39.104153+00:00 alusani systemd-logind[860]: Session 47 logged out. Waiting for processes to exit.
+2026-04-22T14:21:39.104499+00:00 alusani systemd-logind[860]: Removed session 47.
+2026-04-22T14:25:01.485956+00:00 alusani CRON[9897]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-22T14:25:01.488388+00:00 alusani CRON[9897]: pam_unix(cron:session): session closed for user root
+2026-04-22T14:35:01.567602+00:00 alusani CRON[9912]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-22T14:35:01.571305+00:00 alusani CRON[9912]: pam_unix(cron:session): session closed for user root
+2026-04-22T14:45:01.686171+00:00 alusani CRON[9925]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-22T14:45:01.692613+00:00 alusani CRON[9925]: pam_unix(cron:session): session closed for user root
+2026-04-22T14:55:01.774701+00:00 alusani CRON[9939]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-04-22T14:55:01.778851+00:00 alusani CRON[9939]: pam_unix(cron:session): session closed for user root
+2026-04-22T14:58:36.767933+00:00 alusani sudo: pam_unix(sudo:session): session opened for user root(uid=0) by alusaniadmin(uid=1000)
