@@ -20,6 +20,10 @@ This project simulates real-world SOC automation by identifying brute-force atta
 
 ---
 
+## screenshots
+
+https://www.notion.so/Python-Project-34a2f9b6c93180b7bf4bd86add5cecc8?source=copy_link
+
 ## 🛠️ Technologies Used
 
 * Python
